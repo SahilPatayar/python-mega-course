@@ -23,3 +23,35 @@ print("Max temp: ", max(daily_temps))
 # 2. Find count of 72.5
 print("Count of 72.5", daily_temps.count(72.5))
 print("Count of 72.0", daily_temps.count(72.0))
+
+###
+# More on lists
+###
+
+simple_list = [9, 10, 5, 4, 6]
+
+# append
+simple_list.append(15)
+
+# find 0 based index
+simple_list.index(10)
+
+# insert item at provided index
+simple_list.insert(1, 22)
+
+first_item = simple_list[0]
+
+
+
+###
+# Slicing list
+###
+
+# print items from index 0 to 2
+print(simple_list[0:2])
+print(simple_list[:2])
+
+# print last two items - 
+print(simple_list[-2:])
+
+

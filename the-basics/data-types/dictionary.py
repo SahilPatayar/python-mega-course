@@ -11,3 +11,10 @@ print("No of students: ", no_of_students)
 average_of_grades = sum_of_grades / no_of_students
 
 print("Average Grade: ", average_of_grades)
+
+###
+# Accessing items from dict
+###
+
+# pass the key to get the values
+print(student_grades["Superman"])
