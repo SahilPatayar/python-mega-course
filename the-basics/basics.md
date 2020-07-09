@@ -39,3 +39,40 @@
         Output: '+423998200919'
 
 
+# List Comprehensions
+
+    A list comprehension is an expression that creates a list by iterating over another container.
+
+        Example: [i*2 for i in [1, 5, 10]]
+
+        Output: [2, 10, 20]
+
+    List comprehension with ifcondition:
+
+        Example: [i*2 for i in [1, -2, 10] if i>0]
+
+        Output: [2, 20]
+
+    List comprehension with an ifandelsecondition:
+
+        Example: [i*2 if i>0 else 0 for i in [1, -2, 10]]
+
+        Output: [2, 0, 20]
+
+# More on Functions
+
+    Functions can have muliple parameters
+
+    Function can have keyword or non-keyword parameters and Arguments can be passed as non-keyword(positional) arguments (e.g. a) or keywordarguments (e.g. b=2and c=10)
+
+    An *args parameter allows the function to be called with an arbitrary number of non-keyword arguments
+        Ex. def find_max(*args) - keeps all the arguments in a tuple
+
+    An **kwargsparameter allows the function to be called with an arbitrary number of keyword arguments:
+        Ex. def find_winner(**kwargs) - Keeps all the argument in a dict
+
+
+    
+
+
+
