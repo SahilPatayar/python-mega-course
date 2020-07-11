@@ -63,7 +63,8 @@
 
     Functions can have muliple parameters
 
-    Function can have keyword or non-keyword parameters and Arguments can be passed as non-keyword(positional) arguments (e.g. a) or keywordarguments (e.g. b=2and c=10)
+    Function can have keyword or non-keyword parameters and Arguments can be passed as non-keyword(positional) 
+    arguments (e.g. a) or keywordarguments (e.g. b=2and c=10)
 
     An *args parameter allows the function to be called with an arbitrary number of non-keyword arguments
         Ex. def find_max(*args) - keeps all the arguments in a tuple
@@ -71,7 +72,13 @@
     An **kwargsparameter allows the function to be called with an arbitrary number of keyword arguments:
         Ex. def find_winner(**kwargs) - Keeps all the argument in a dict
 
+# File Processing
 
+    use "with" to open a file to close the file resource after use
+
+    files can be opened in mode like read, write, append
+
+    use help(open) to read more
     
 
 

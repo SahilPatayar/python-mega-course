@@ -2,7 +2,6 @@
 
 # This repo contains lessions and code from course to learn python.
 
-
 ## The Basics
 
     1. Python has implicit variable declaration. Be careful when assiging the values to variables.
@@ -40,3 +39,42 @@
             tuples represent arrays of values that are not to be changed during the course of the program
             Ex. vowels = ('a', 'e', 'i', 'o', 'u')
 
+
+# Imported Modules
+
+    Builtin objects are all objects that are written inside the Python interpreter in C language.
+    Builtin modulescontain builtins objects.
+
+    Some builtin objects are not immediately available in the global namespace. They are parts of a builtin module. To use those objects the module needs to be importedfirst. E
+        E.g.:
+            import time
+            time.sleep(5)
+
+    A list of all builtin modulescan be printed out with:
+        import sys
+        sys.builtin_module_names
+
+    Standard librarie is a jargon that includes both builtin modules written in C and also modules written in Python.
+
+    Standard libraries written in Python reside in the Python installation directory as .pyfiles. You can find their directory path with sys.prefix.
+
+    Packages are a collection of .pymodules.
+
+    Third-party librariesare packages or modules written by third-party persons (not the Python core development team).
+
+    Third-party libraries can be installed from the terminal/command line:
+
+    Windows:
+        pip install pandas
+    
+    Mac and Linux:
+        pip3 install pandas
+
+
+# set up a python virtual environment (Linux)
+
+    1. Run this command to create a virtual env in your workspace
+        python3 venv -m env
+
+    2. Run this command to activate the virtual env in your workspace
+        source env/bin/activate
